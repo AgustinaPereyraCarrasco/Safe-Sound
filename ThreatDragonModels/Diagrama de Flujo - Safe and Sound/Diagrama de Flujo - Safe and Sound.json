@@ -18,6 +18,113 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "9c5a8733-81b0-47d2-bfc5-b4251f87aca0",
+            "source": {
+              "x": 388,
+              "y": 1182
+            },
+            "target": {
+              "x": 250,
+              "y": 1500
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "cac0dcbb-d835-4157-b072-5a901d761058",
+            "source": {
+              "x": 400,
+              "y": 520
+            },
+            "target": {
+              "x": 350,
+              "y": 833
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 590
+              }
+            ]
+          },
+          {
             "position": {
               "x": 30,
               "y": 30
@@ -2415,6 +2522,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2508,8 +2616,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -2532,6 +2639,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -2628,8 +2736,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 15
+            }
           },
           {
             "position": {
@@ -2652,6 +2759,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -2748,8 +2856,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 16
+            }
           },
           {
             "position": {
@@ -2772,6 +2879,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -2868,8 +2976,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 17
+            }
           },
           {
             "shape": "flow",
@@ -2887,6 +2994,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 21,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2915,8 +3023,7 @@
               "cell": "db15c4c7-fd01-44a3-8068-0af55eaad6fe",
               "port": "cc4abee0-3eb9-4be9-9795-b257ace35333"
             },
-            "vertices": [],
-            "zIndex": 21
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -2934,6 +3041,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 22,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2962,8 +3070,7 @@
               "cell": "b58d0109-35cf-4034-a9b5-99432deb374d",
               "port": "cc4abee0-3eb9-4be9-9795-b257ace35333"
             },
-            "vertices": [],
-            "zIndex": 22
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -2981,6 +3088,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 23,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -3009,8 +3117,7 @@
               "cell": "6e7e0669-3868-4ae0-b8a8-996a41a71d26",
               "port": "58374fe0-1cd0-4af7-b294-8804d90501cb"
             },
-            "vertices": [],
-            "zIndex": 23
+            "vertices": []
           },
           {
             "position": {
@@ -3028,13 +3135,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 31,
             "id": "3b4b1292-5af4-41e6-9154-27e78c34f8ac",
             "data": {
               "type": "tm.Text",
               "name": "RF 2: Inicio de Sesión",
               "hasOpenThreats": false
-            },
-            "zIndex": 31
+            }
           },
           {
             "position": {
@@ -3057,6 +3164,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 32,
             "ports": {
               "groups": {
                 "top": {
@@ -3140,7 +3248,6 @@
               ]
             },
             "id": "12e16ea0-9569-4e9a-8d6e-94931a81dc8c",
-            "zIndex": 32,
             "data": {
               "type": "tm.Process",
               "name": "Autenticación",
@@ -3180,6 +3287,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 33,
             "ports": {
               "groups": {
                 "top": {
@@ -3263,7 +3371,6 @@
               ]
             },
             "id": "effe350a-103c-46e3-9188-63739f00149b",
-            "zIndex": 33,
             "data": {
               "type": "tm.Store",
               "name": "Base de Datos",
@@ -3301,6 +3408,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 34,
             "ports": {
               "groups": {
                 "top": {
@@ -3384,7 +3492,6 @@
               ]
             },
             "id": "2627e702-5dd6-40a9-975b-0b04758ec109",
-            "zIndex": 34,
             "data": {
               "type": "tm.Process",
               "name": "Sesiones",
@@ -3424,6 +3531,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 35,
             "ports": {
               "groups": {
                 "top": {
@@ -3507,7 +3615,6 @@
               ]
             },
             "id": "10c7bc48-e630-41fb-87f6-a00f5334b455",
-            "zIndex": 35,
             "data": {
               "type": "tm.Store",
               "name": "Logs",
@@ -3545,6 +3652,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 36,
             "ports": {
               "groups": {
                 "top": {
@@ -3638,8 +3746,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 36
+            }
           },
           {
             "position": {
@@ -3662,6 +3769,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 37,
             "ports": {
               "groups": {
                 "top": {
@@ -3758,8 +3866,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 37
+            }
           },
           {
             "position": {
@@ -3782,6 +3889,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 38,
             "ports": {
               "groups": {
                 "top": {
@@ -3878,8 +3986,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 38
+            }
           },
           {
             "position": {
@@ -3902,6 +4009,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 39,
             "ports": {
               "groups": {
                 "top": {
@@ -3998,8 +4106,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 39
+            }
           },
           {
             "position": {
@@ -4017,13 +4124,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 40,
             "id": "4b33eae2-1873-461f-9940-b3e47519a52e",
             "data": {
               "type": "tm.Text",
               "name": "RF 2: Cierre de Sesión",
               "hasOpenThreats": false
-            },
-            "zIndex": 40
+            }
           },
           {
             "position": {
@@ -4046,6 +4153,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 43,
             "ports": {
               "groups": {
                 "top": {
@@ -4142,8 +4250,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 43
+            }
           },
           {
             "position": {
@@ -4169,6 +4276,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 44,
             "ports": {
               "groups": {
                 "top": {
@@ -4266,8 +4374,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 44
+            }
           },
           {
             "shape": "flow",
@@ -4285,6 +4392,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 55,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -4313,8 +4421,7 @@
               "cell": "b403dccc-5d63-406c-b1de-e1070b672ff2",
               "port": "ace569a3-469c-4126-8a13-b9e6307eb8b2"
             },
-            "vertices": [],
-            "zIndex": 55
+            "vertices": []
           },
           {
             "position": {
@@ -4340,6 +4447,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 57,
             "ports": {
               "groups": {
                 "top": {
@@ -4423,7 +4531,6 @@
               ]
             },
             "id": "9e35cdca-233e-4f43-b6ed-eac6988f5928",
-            "zIndex": 57,
             "data": {
               "type": "tm.Store",
               "name": "Info sesión",
@@ -4464,6 +4571,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 58,
             "ports": {
               "groups": {
                 "top": {
@@ -4561,8 +4669,7 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "zIndex": 58
+            }
           }
         ]
       }
